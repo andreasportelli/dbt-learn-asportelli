@@ -1,10 +1,9 @@
 select 
 
-    orderid,
-    paymentmethod,
+    orderid as order_id,
+    paymentmethod as payment_method,
     status,
     amount,
-    created,
-    _batched_at
+    created
 
 from raw.stripe.payment
