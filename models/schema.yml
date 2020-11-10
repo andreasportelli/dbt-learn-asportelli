@@ -20,6 +20,10 @@ models:
         tests:
           - unique
           - not_null
+      - name: customer_id
+        description: Customer Reference
+        tests:
+          - not_null
 
   - name: stg_customers
     description: This model cleans up customer data
@@ -32,12 +36,6 @@ models:
 
   - name: stg_payments
     description: This model stores payments
-    columns:
-      - name: order_id
-        description: Primary key
-        tests:
-          - unique
-          - not_null
 
   - name: stg_orders
     description: This model cleans up order data
