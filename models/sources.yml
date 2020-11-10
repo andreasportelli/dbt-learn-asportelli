@@ -11,3 +11,4 @@ sources:
     database: RAW
     tables:
       - name: payment
+
