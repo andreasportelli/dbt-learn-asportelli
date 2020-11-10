@@ -11,7 +11,6 @@ orders as (
 
 )
 
-
 select 
 
     o.order_id, 
