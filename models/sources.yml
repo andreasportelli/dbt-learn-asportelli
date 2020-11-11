@@ -12,3 +12,10 @@ sources:
     tables:
       - name: payment
 
+  - name: ticket_tailor
+    database: RAW
+    tables:
+      - name: orders
+      - name: events
+      - name: issued_tickets
+
